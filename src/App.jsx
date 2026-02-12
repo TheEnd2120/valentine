@@ -51,13 +51,13 @@ export default function Page() {
             </p>
             <p className="text-lg md:text-xl mb-6 leading-relaxed text-gray-800 font-semibold">
               Для мене ти - це все на світі. Ніхто і ніколи не зможе тебе замінити,
-              бо ти - моя доля, моя любов, моя зоря в темному небі.
+              бо ти - найцінніша хто у мене є.
             </p>
             <p className="text-xl md:text-2xl font-bold text-rose-600 animate-pulse">
               Люблю тебе сильніше, ніж слова можуть висловити...
             </p>
             <p className="text-3xl md:text-5xl font-black mt-4 text-rose-600 tracking-widest">
-              ДУУУУУУУУУУУУУУУУУУУЖЕ СИЛЬНО!!! ❤️❤️❤️
+              ДУУУУУУУУУУУУУЖЕ СИЛЬНО!!! ❤️❤️❤️
             </p>
           </div>
         </>

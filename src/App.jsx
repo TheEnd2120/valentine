@@ -45,14 +45,19 @@ export default function Page() {
           <div className="text-4xl md:text-6xl font-bold my-4 text-center">
             Ура! Ти найкраща! 🎉❤️
           </div>
-          <div className="text-center mt-8 px-4 max-w-2xl">
-            <p className="text-2xl md:text-3xl font-bold mb-6">❤️ Ксюш. Ти - найцінніша для мене людина! ❤️</p>
-            <p className="text-lg md:text-xl mb-4 leading-relaxed">
-              Для мене ти - це все на світі. Ні��то і ніколи не зможе тебе замінити,
+          <div className="text-center mt-8 px-4 max-w-3xl max-h-96 overflow-y-auto bg-rose-50 rounded-lg p-6 shadow-lg">
+            <p className="text-2xl md:text-3xl font-bold mb-6 text-rose-600">
+              ❤️ Ксюш. Ти - найцінніша для мене людина! ❤️
+            </p>
+            <p className="text-lg md:text-xl mb-6 leading-relaxed text-gray-800 font-semibold">
+              Для мене ти - це все на світі. Ніхто і ніколи не зможе тебе замінити,
               бо ти - моя доля, моя любов, моя зоря в темному небі.
             </p>
-            <p className="text-lg md:text-xl font-semibold">
-              Люблю тебе сильніше, ніж слова можуть висловити... 💕
+            <p className="text-xl md:text-2xl font-bold text-rose-600 animate-pulse">
+              Люблю тебе сильніше, ніж слова можуть висловити...
+            </p>
+            <p className="text-3xl md:text-5xl font-black mt-4 text-rose-600 tracking-widest">
+              ДУУУУУУУУУУУУУУУУУУУЖЕ СИЛЬНО!!! ❤️❤️❤️
             </p>
           </div>
         </>
@@ -70,12 +75,12 @@ export default function Page() {
             className="h-[230px] rounded-lg shadow-lg"
             src="https://gifdb.com/images/high/cute-love-bear-roses-ou7zho5oosxnpo6k.webp"
           />
-          <h1 className="text-4xl md:text-6xl my-4 text-center">
-            Ти будеш моєю коханою?
+          <h1 className="text-4xl md:text-6xl my-4 text-center font-bold text-rose-600">
+            Ксюш, ти будеш моєю валентинкою?
           </h1>
-          <div className="flex flex-wrap justify-center gap-2 items-center">
+          <div className="flex flex-wrap justify-center gap-2 items-center mt-8">
             <button
-              className={`bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded-lg mr-4`}
+              className={`bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-6 rounded-lg shadow-lg transform hover:scale-110 transition-transform`}
               style={{ fontSize: yesButtonSize }}
               onClick={() => setYesPressed(true)}
             >
@@ -83,7 +88,7 @@ export default function Page() {
             </button>
             <button
               onClick={handleNoClick}
-              className="bg-rose-500 hover:bg-rose-600 rounded-lg text-white font-bold py-2 px-4"
+              className="bg-rose-500 hover:bg-rose-600 rounded-lg text-white font-bold py-3 px-6 shadow-lg transform hover:scale-110 transition-transform"
             >
               {noCount === 0 ? "Ні" : getNoButtonText()}
             </button>
@@ -99,9 +104,9 @@ const Footer = () => {
   return (
     <a
       href="https://github.com/xeven777"
-      className="text-center text-xs text-gray-500 mt-4 hover:underline"
+      className="text-center text-xs text-gray-500 mt-4 hover:underline fixed bottom-4"
     >
-      Зроблено з любов'ю для Ксюші ❤️
+      Зроблено з нескінченною любов'ю для Ксюші 💙
     </a>
   );
 };
